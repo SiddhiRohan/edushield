@@ -1,39 +1,25 @@
-# Environment and secrets
-venv/
-.venv/
+# Environment variables (contains secrets)
 .env
-.env.local
 *.env
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-.Python
-*.so
-.eggs/
-*.egg-info/
-*.egg
 
-# Database and data (local/dev)
-*.db
-*.sqlite
-*.sqlite3
-data/
-quantumleap.db
+# Logs
+server/logs/
+*.jsonl
 
-# FAISS and embeddings (regenerated from PDFs)
-*.faiss
-faiss_index
+# Virtual environments
+venv/
+env/
+.venv/
 
-# IDE and OS
-.idea/
+# IDE
 .vscode/
-*.swp
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
-
-# Logs and audit (optional: remove if you want to track sample logs)
-*.log
-data/audit_log.jsonl
