@@ -196,17 +196,6 @@ Go to http://localhost:3000
 
 ---
 
-## Demo Script (5 minutes)
-
-1. **[0:00–0:30]** Introduce EduShield and show the architecture diagram
-2. **[0:30–1:30]** Login as **Admin** → ask about financial records → show full access, SSN masked
-3. **[1:30–2:30]** Login as **Teacher** → same question → salary visible, student finances denied
-4. **[2:30–3:30]** Login as **Student** → ask about grades → ACCESS DENIED shown
-5. **[3:30–4:15]** Open `/audit-log` → show traced decisions, open a `/context-packet`
-6. **[4:15–5:00]** Ethics wrap-up: least-privilege, masking, TTL, explainability, no direct API calls
-
----
-
 ## License
 
 Built for Quantum Leap 2026 ICCP Hackathon.
